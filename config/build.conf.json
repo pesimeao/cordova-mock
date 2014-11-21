@@ -1,0 +1,5 @@
+{
+    "moduleDeployFile"      : "tlanjs_cdvmock_<%= pkg.version %>.js",
+    "minifiedDeployFile"    : "tlanjs_cdvmock_<%= pkg.version %>.min.js",
+    "obfuscate"             : true
+}
