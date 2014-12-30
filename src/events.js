@@ -1,4 +1,4 @@
-(function CdvMockEvents(mock, document) {
+(function CdvMockEvents(mock, window, document) {
 	'use strict';
 
 	var _settings = {
@@ -64,9 +64,12 @@
 
     // ***** STARTING "FAKE" CONTAINER     ***********************************************************************
 	document.addEventListener('DOMContentLoaded', function() {
-		if (!mock.events.isReady) {
+        // Prevent from running if cordova is present
+        if (window.cordova)
+            return;
+
+		if (!mock.events.isReady)
 			mock.events.deviceReady();
-		}
 	}, false);
 
-})(window.CdvMock, window.document);
+})(window.CdvMock, window, window.document);
