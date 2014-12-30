@@ -1,5 +1,5 @@
 {
-    "moduleDeployFile"      : "<%= pkg.name %>.<%= pkg.version %>.js",
-    "minifiedDeployFile"    : "<%= pkg.name %>.<%= pkg.version %>.min.js",
+    "moduleDeployFile"      : "<%= pkg.name %>.js",
+    "minifiedDeployFile"    : "<%= pkg.name %>.min.js",
     "obfuscate"             : true
 }
