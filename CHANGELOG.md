@@ -1,6 +1,9 @@
-TlanJS - Cordova Mock v1.0.x release notes
+TlanJS - Cordova Mock ChangeLog
 ==============================================
 
-## v1.0.0 - Changelog
+## v1.0.1
+	Fix in execution order
+	Fix minor bugs
 
-First release.
+## v1.0.0
+	First release.
