@@ -33,7 +33,7 @@
 	}
 
 	function version() {
-		return client ? client.osVersion : 1;
+		return client ? client.osVersion : "1.0";
 	}
 
 	mock.device = {
