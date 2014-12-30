@@ -73,7 +73,7 @@ module.exports = function (grunt) {
                 banner: '/*! <%= pkg.name %> - v<%= pkg.version %> - ' + '<%= grunt.template.today("yyyy-mm-dd") %> */\n'
             },
             dist: {
-                src: ['src/*.js'],
+                src: ['src/cordova_mock.js', 'src/*.js', 'src/**/*.js'],
                 dest: 'dist/' + project.moduleDeployFile
             }
         },
